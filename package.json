@@ -36,7 +36,8 @@
     "react-helmet": "^5.2.0",
     "react-overdrive": "^0.0.10",
     "react-typography": "^0.16.13",
-    "typography": "^0.16.17"
+    "typography": "^0.16.17",
+    "gh-pages": "^2.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -64,9 +65,6 @@
     "url": "git+https://github.com/LekoArts/gatsby-starter-portfolio-emilia.git"
   },
   "scripts": {
-    "dev": "gatsby develop -o",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
     "deploy": "gatsby build --prefix-paths && gh-pages -b master -d public"
   }
 }
