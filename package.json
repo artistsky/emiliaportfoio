@@ -66,6 +66,7 @@
   "scripts": {
     "dev": "gatsby develop -o",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -b master -d public"
   }
 }
