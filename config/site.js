@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+  pathPrefix: 'gatsby-starter-portfolio-emilia', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
 
   siteTitle: 'Emilia', // Navigation and Site Title
   siteTitleAlt: 'Emilia - Gatsby Starter Portfolio', // Alternative Site title for SEO
