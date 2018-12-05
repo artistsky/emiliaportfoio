@@ -67,7 +67,7 @@
   "scripts": {
     "build": "gatsby build",
     "test": "echo \"no test specified\" && exit 0",
-    "preDeploy": "gatsby build",
+    "preDeploy": "gatsby build && echo 'emilia.gabe.ws' > public/CNAME",
     "deploy": "npm run preDeploy && gh-pages -d public"
   }
 }
