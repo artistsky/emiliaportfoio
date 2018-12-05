@@ -105,7 +105,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        date(formatString: "DD.MM.YYYY")
+        date(formatString: "MM.DD.YYYY")
         title
         areas
       }
