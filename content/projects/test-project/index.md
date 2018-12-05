@@ -1,5 +1,5 @@
 ---
-cover: "random.jpg"
+cover: "project1_SB.png"
 date: "2018-12-05"
 title: "Whomst"
 areas:
@@ -7,4 +7,4 @@ areas:
     - Art
 ---
 
-Hi! I hope you like this theme and enjoy working with it.
+Quite the test.
