@@ -65,6 +65,9 @@
     "url": "git+https://github.com/LekoArts/gatsby-starter-portfolio-emilia.git"
   },
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public"
+    "build": "gatsby build",
+    "test": "echo \"no test specified\" && exit 0",
+    "preDeploy": "gatsby build",
+    "deploy": "npm run preDeploy && gh-pages -d public"
   }
 }
