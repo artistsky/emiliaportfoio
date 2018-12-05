@@ -5,5 +5,6 @@
 <url> <loc>https://emilia.gabe.ws/roman-kraft</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emilia.gabe.ws/matt-cannon</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emilia.gabe.ws/marion-michele</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://emilia.gabe.ws/whomst</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://emilia.gabe.ws/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
