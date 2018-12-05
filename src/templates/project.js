@@ -21,7 +21,8 @@ const InnerWrapper = styled.div`
 `;
 
 const Project = ({ pageContext: { slug, prev, next }, data: { project: postNode, images: imgs } }) => {
-  const images = imgs.edges;
+  const images = imgs ? imgs.edges : null;
+  
   const project = postNode.frontmatter;
 
   return (
@@ -41,13 +42,14 @@ const Project = ({ pageContext: { slug, prev, next }, data: { project: postNode,
           <Overdrive id={`${slug}-cover`}>
             <Img fluid={project.cover.childImageSharp.fluid} />
           </Overdrive>
-          {images.map(image => (
+
+          {images ? images.map(image => (
             <Img
               key={image.node.childImageSharp.fluid.src}
               fluid={image.node.childImageSharp.fluid}
               style={{ margin: '2.75rem 0' }}
             />
-          ))}
+          )) : null}
         </InnerWrapper>
         <ProjectPagination next={next} prev={prev} />
       </OuterWrapper>
